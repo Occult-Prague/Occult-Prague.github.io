@@ -76,17 +76,18 @@ img::-moz-selection {
 }
 
 #mainNav {
-  border-bottom: 1px solid rgba(33, 37, 41, 0.1);
-  background-color: #fff;
+  border-color: rgba(250, 63, 63, 0.856);
+  border-width: 5px solid;
+  border-bottom: 5px;
+  background-color:rgba(255, 217, 0, 0.842);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  -webkit-transition: all 0.2s;
-  transition: all 0.2s;
 }
 
 #mainNav .navbar-brand {
   font-weight: 700;
+  font-size: 22px;
   text-transform: uppercase;
-  color: goldenrod;
+  color: black;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -98,7 +99,7 @@ img::-moz-selection {
   color: black;
 }
 #mainNav .navbar-nav > li.nav-item > a.nav-link {
-  font-size: .9rem;
+  font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   color: black;
@@ -128,10 +129,12 @@ img::-moz-selection {
 
 @media (min-width: 992px) {
   #mainNav {
-    background-color: whitesmoke;
+    background-color:rgba(255, 217, 0, 0.842);
+    border-color: rgba(250, 63, 63, 0.856);
+    border-width: 5px solid;
   }
   #mainNav .navbar-brand {
-    color: goldenrod;
+    color:black;
   }
   #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
     color: black;
