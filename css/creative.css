@@ -372,6 +372,14 @@ h2b {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
+h4b {
+  font-size: 17px;
+  text-align: justify;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.493);
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
 hr.light {
   border-color: goldenrod;
 }
